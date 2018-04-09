@@ -1,0 +1,30 @@
+{
+  "name": "learn-angular-from-scratch-step-by-step-api",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "angular-templates.io",
+  "description": "This project is part of the tutorial: Learn how to build a MEAN stack application. The goal of this tutorial is to guide you through the coding of a full-stack JavaScript example application project and connecting a backend API to an Angular 5 front-end application employing the MEAN stack.",
+  "main": "server/server.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "dependencies": {
+    "@mean-expert/loopback-sdk-builder": "2.2.5",
+    "compression": "^1.7.2",
+    "cors": "^2.8.2",
+    "helmet": "^3.10.0",
+    "loopback": "^3.0.0",
+    "loopback-boot": "^2.27.1",
+    "loopback-component-explorer": "^5.3.0",
+    "loopback-connector-mongodb": "^3.4.3",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "nsp": "^2.1.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "question",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "categorySlug":{
+      "type": "string"
+    },
+    "questionSlug":{
+      "type": "string",
+      "required": true
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "negativeVotes": {
+      "type": "number",
+      "default": 0
+    },
+    "positiveVotes": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "answers": {
+      "type": "hasMany",
+      "model": "answer",
+      "foreignKey": "questionId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

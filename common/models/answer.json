@@ -1,0 +1,32 @@
+{
+  "name": "answer",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "answer": {
+      "type": "string",
+      "required": true
+    },
+    "negativeVotes": {
+      "type": "number",
+      "default": 0
+    },
+    "positiveVotes": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "question": {
+      "type": "belongsTo",
+      "model": "question",
+      "foreignKey": "questionId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
