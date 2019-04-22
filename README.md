@@ -1,14 +1,14 @@
 # Angular Tutorial: Learn Angular from scratch step by step REST API
 
-This project is a Loopback API used in part 2 of [Learn Angular from scratch step by step tutorial](https://angular-templates.io/tutorials/about/learn-angular-from-scratch-step-by-step) where we explore from the basic concepts and why’s of Angular to building a complete Angular 5 app with the MEAN stack.
+This project is a Loopback API used in part 2 of [Learn Angular from scratch step by step tutorial](https://angular-templates.io/tutorials/about/learn-angular-from-scratch-step-by-step) where we explore from the basic concepts and why’s of Angular to building a complete Angular 7 app with the MEAN stack.
 
-The goal of this angular 5 tutorial is to guide you through the coding of a full-stack JavaScript example application project and connecting a backend API to an Angular 5 front-end application employing the MEAN stack.
+The goal of this angular 7 tutorial is to guide you through the coding of a full-stack JavaScript example application project and connecting a backend API to an Angular front-end application employing the MEAN stack.
 
 By the end of this Angular advanced tutorial, you will learn about the mean stack from scratch, including how to build a RESTful API with Loopback and using it to perform CRUD operations on a MongoDB database through an Angular frontend.
 
 Get the step by step free tutorial in https://angular-templates.io/tutorials/about/learn-how-to-build-a-mean-stack-application
 
-**Please support this project by simply putting a Github star ⭐. Share this library with friends on Twitter and everywhere else you can. 🙏. Thanks**
+**Please support this project by simply putting a Github star ⭐. Thanks 🙏**
 
 
 ## Installation
