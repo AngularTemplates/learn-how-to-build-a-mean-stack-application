@@ -17,6 +17,6 @@ RUN npm install
 COPY . .
 
 #Expose port 3000 outside container
-EXPOSE 4200
+EXPOSE 3000
 #Command used to start application
 CMD ng serve --host 0.0.0.0
